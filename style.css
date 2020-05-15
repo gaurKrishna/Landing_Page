@@ -1,0 +1,578 @@
+body, ul, li, h1, h2, a, main{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.Hire-button{
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 100px;
+    background-color: #ffc400;
+    color: white;
+}
+
+.Hire-button:hover{
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(145, 92, 182);
+}
+
+nav ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+nav li{
+    margin-top: 5%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+nav img{
+    margin-right: 40%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #a2a3a3;
+}
+
+main{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.We_Creative{
+    font-size: 48px;
+}
+
+.EzeWev{
+    font-size: 48px;
+    color: #ffc400;
+}
+
+main article{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+
+main div{
+    margin-top: 5%;
+}
+
+main article p{
+    white-space: normal;
+    color: #a2a3a3;
+}
+
+main a{
+    text-decoration: none;
+}
+
+.Scroll-bar{
+    max-width: 1200px;
+    margin: 5% auto;
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+}
+
+.Scroll-bar a{
+    display: inline-block;
+    width: 2%;
+    padding: 5px;
+    border: 1px solid #ffc400;
+    border-radius: 40px;
+}
+
+.Scroll-bar .highlighted{
+    text-decoration: none;
+    display: inline-block;
+    background: #ffc400;
+    width: 2%;
+    padding: 5px;
+    border: 1px solid #ffc400;
+    border-radius: 40px;
+}
+
+.Services{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.Services article{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    text-align: center;
+}
+
+.Services .Cards{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.Services .Cards li{
+    display: inline-block;
+    max-width: 20%;
+    text-align: center;
+    margin: 5% 2.5%;
+    transition: all 0.2s ease-in-out;
+    padding-top: 2%;
+}
+
+.Services .Cards li a{
+    text-decoration: none;
+}
+
+.Services .Cards li p{
+    white-space: pre-line;
+    color: #a2a3a3;
+}
+
+.Services .Cards a{
+    color: #ffbb54;
+}
+
+.Services .Cards a span{
+    font-weight: Bold;
+}
+
+.Services article h2{
+    font-size: 26px;
+}
+
+.Services article p{
+    white-space: pre-line;
+    color: #a2a3a3;
+}
+
+.Services .Cards li:hover{
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(145, 92, 182);
+}
+
+.Hire{
+    display: block;
+    max-width: 1200px;
+    margin: 10% auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.Hire article{
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+}
+
+.Hire .Second-image{
+    width: 50%;
+    float: left;
+}
+
+
+.Hire article p{
+    white-space: normal;
+    color: #a2a3a3;
+}
+
+.Hire article h2{
+    font-size: 28px;
+}
+
+.Hire a{
+    text-decoration: none;
+}
+
+.Hire a:hover{
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(145, 92, 182);
+}
+
+.Profile{
+    display: inline-block;
+    max-width: 1200px;
+    margin: 10% 7%;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.Profile article{
+    margin-top: 7%;
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+.Profile p{
+    white-space: normal;
+    color: #a2a3a3;
+}
+
+.Profile ul{
+    width: 40%;
+    float: left;
+}
+
+.Profile li{
+    padding: 5%;
+    Line-Height: 38px;
+    text-align: center;
+    display: inline-block;
+    margin: 5% 15%;
+}
+
+.Profile li:hover{
+    transition: 0.3s;
+    border: 3px dashed #ffc400;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(145, 92, 182);
+}
+
+.Profile article h1{
+    font-size: 38px;
+    font-weight: Bold;
+    Line-Height: 46px;
+}
+
+.Profile li h2{
+    color: #ffc400;
+}
+
+.Profile li span{
+    color: #a2a3a3;
+}
+
+.Featured-in{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    white-space: nowrap;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+
+.Featured-in h2{
+    text-align: center;
+    color: #a2a3a3;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+}
+
+.Featured-in li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 7.5% 2.5%;
+
+}
+
+
+.features-available{
+    display: inline-block;
+    max-width: 1200px;
+    margin: 0 7%;
+    white-space: nowrap;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+
+.features-available div{
+    width: 40%;
+    float: left;
+    margin:0 5%;
+    Line-Height: 16px;
+}
+
+.features-available div span{
+    color: #ffbb54;
+}
+
+.features-available p{
+    margin: 0;
+    white-space: pre-line;
+    Line-Height: 24px;
+    margin-bottom: 12%;
+    color: #a2a3a3;
+}
+
+.features-available div p{
+    white-space: pre-line;
+}
+
+.features-available article{
+    margin-top: 5.5%;
+    width: 40%;
+    float: left;
+}
+
+.features-available article p{
+    margin-bottom: 3%;
+}
+
+/*.features-available h1{
+    margin-top: 2%;
+}*/
+
+.features-available ul{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.features-available li{
+    margin-bottom: 2.5%;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
+.features-available li:hover{
+    transition: 0.3s;
+    transform: rotate(10deg);
+}
+
+.features-available article span{
+    font-weight: bold;
+    color: #a2a3a3;
+}
+
+.Membership article{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.Membership article p{
+    color: #a2a3a3;
+    line-height: 28px;
+    padding: 0 30%;
+}
+
+.Membership ul{
+    display: block;
+    max-width: 1200px;
+    margin: 5% auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.Membership ul li{
+    padding: 1%;
+    display: inline-block;
+    width: 20%;
+    margin:0 5%;
+    text-align: center;
+}
+
+.Membership ul li:hover{
+    transition: 0.3s;
+    border: 3px dashed #ffc400;
+    box-shadow: 0 5px 15px rgba(145, 92, 182);
+}
+
+.Membership ul li .Features li{
+    color: #a2a3a3;
+    padding: 0 20%;
+    display: block;
+    text-align: center;
+}
+
+.Membership ul li .Features li:hover{
+    transition: 0.3s;
+    border: none;
+    box-shadow: none;
+}
+
+.Membership ul li h1{
+    color: #ffbb54;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.Membership a{
+    margin: 20%;
+    text-decoration: none;
+    color: white;
+    background: #ffbb54;
+    border: none;
+    border-radius: 32px;
+    padding: 2.5%;
+}
+
+.Join{
+    display: block;
+    max-width: 1200px;
+    margin: 10% auto;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.Join .Join-form{
+    display: block;
+    width: 50%;
+    float: left;
+    white-space: nowrap;
+
+}
+
+.Join p{
+    white-space: normal;
+    line-height: 24px;
+    color: #a2a3a3;
+}
+
+.Join .Join-img{
+    width: 50%;
+    float: left;
+}
+
+.Join .Join-Form h1{
+    font-size: 28px;
+}
+
+.Join .custom-form{
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+.Join .custom-form #Firstname{
+    display: inline-block;
+    width: 40%;
+    height: 25px;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.Join .custom-form input::placeholder{
+    text-align: center;
+}
+
+
+.Join .custom-form #Lastname{
+    display: inline-block;
+    width: 40%;
+    height: 25px;
+    margin-bottom: 2.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.Join .custom-form #Email{
+    display: inline-block;
+    width: 84%;
+    height: 25px;
+    float: left;
+    margin-bottom: 2.5%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.Join .custom-form #Messages{
+    display: block;
+    width: 84%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.Join .custom-form #Submit{
+    width: 20%;
+    display: block;
+    padding: 15px;
+    border: none;
+    border-radius: 100px;
+    background-color: #ffc400;
+    color: white;
+}
+
+
+.Join .custom-form #Submit:hover
+{
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(145, 92, 182);
+}
+
+
+
+footer{
+    display: inline-block;
+    max-width: 1200px;
+    margin: 10% 7%;
+    margin-right: 0%;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.info{
+    padding-top:5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 5%;
+    display: inline-block;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 0%;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: #353535;
+}
+
+.info div{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+}
+
+.info div p{
+    white-space: normal;
+    line-height: 28px;
+    color: #a2a3a3;
+}
+
+.info div img{
+    width: 35%;
+    height: 17.5%;
+}
+
+.map{
+    width: 45%;
+    height: 22.5%;
+}
+
+.Copyright{
+    padding: 1%;
+    background: #ffbc27;
+}
+
+.Copyright .Design-span1{
+    margin-right: 60%;
+}
