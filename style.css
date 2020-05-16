@@ -504,15 +504,16 @@ main a{
 }
 
 .Join .custom-form #Submit{
-    width: 12%;
+    width: 7em;
     display: block;
-    padding: 15px;
+    padding: 0.85em 1.5em;
     border: none;
     border-radius: 100px;
     background-color: #ffc400;
     color: white;
+    font-weight: bold;
+    font-size: 1em;
 }
-
 
 .Join .custom-form #Submit:hover
 {
