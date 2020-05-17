@@ -18,6 +18,10 @@ body, ul, li, h1, h2, a, main{
     box-shadow: 0 5px 15px rgba(145, 92, 182);
 }
 
+nav {
+    margin-top: 1%;
+}
+
 nav ul{
     max-width: 1200px;
     margin: 0 auto;
@@ -25,7 +29,6 @@ nav ul{
 }
 
 nav li{
-    margin-top: 5%;
     display: inline-block;
     margin-right: 2%;
 }
@@ -111,8 +114,6 @@ main a{
 }
 
 .Services article{
-    margin-top: 5%;
-    margin-bottom: 5%;
     display: block;
     text-align: center;
 }
@@ -129,7 +130,7 @@ main a{
     display: inline-block;
     max-width: 20%;
     text-align: center;
-    margin: 5% 2.5%;
+    margin: 4% 2%;
     transition: all 0.2s ease-in-out;
     padding-top: 2%;
 }
@@ -168,22 +169,27 @@ main a{
 .Hire{
     display: block;
     max-width: 1200px;
-    margin: 10% auto;
+    margin: 4% auto;
     white-space: nowrap;
     box-sizing: border-box;
 }
 
 .Hire article{
-    width: 50%;
+    width: 40%;
     float: left;
     margin-top: 8%;
 }
 
 .Hire .Second-image{
-    width: 50%;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: 40%;
     float: left;
 }
 
+.Hire img{
+    width: 70%;
+}
 
 .Hire article p{
     white-space: normal;
@@ -195,6 +201,7 @@ main a{
 }
 
 .Hire a{
+    margin-top: 3%;
     text-decoration: none;
 }
 
@@ -206,13 +213,14 @@ main a{
 .Profile{
     display: inline-block;
     max-width: 1200px;
-    margin: 10% 7%;
+    margin: 7% 7%;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-bottom: 6%;
 }
 
 .Profile article{
-    margin-top: 7%;
+    margin-top: 10%;
     width: 40%;
     float: left;
     margin-right: 10%;
@@ -233,7 +241,7 @@ main a{
     Line-Height: 38px;
     text-align: center;
     display: inline-block;
-    margin: 5% 15%;
+    margin: 2% 5%;
 }
 
 .Profile li:hover{
@@ -278,7 +286,7 @@ main a{
     display: inline-block;
     width: 20%;
     text-align: center;
-    margin: 7.5% 2.5%;
+    margin: 3% 2.5%;
 
 }
 
@@ -419,9 +427,10 @@ main a{
 .Join{
     display: block;
     max-width: 1200px;
-    margin: 10% auto;
+    margin: 7% auto;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-left: 10%;
 }
 
 .Join .Join-form{
@@ -439,7 +448,7 @@ main a{
 }
 
 .Join .Join-img{
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
@@ -526,10 +535,11 @@ main a{
 footer{
     display: inline-block;
     max-width: 1200px;
-    margin: 10% 7%;
+    margin: 0 7%;
     margin-right: 0%;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-right: 5%;
 }
 
 .info{
@@ -547,7 +557,6 @@ footer{
 }
 
 .info div{
-    margin-top: 5%;
     margin-left: 5%;
     width: 50%;
     float: left;
@@ -575,5 +584,6 @@ footer{
 }
 
 .Copyright .Design-span1{
-    margin-right: 60%;
+    padding-left: 5%;
+    margin-right: 45%;
 }
