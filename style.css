@@ -63,6 +63,12 @@ main{
     color: #ffc400;
 }
 
+main h2
+{
+    font-size: 1.6em;
+    white-space: pre-line;
+}
+
 main article{
     width: 40%;
     float: left;
