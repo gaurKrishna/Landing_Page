@@ -18,23 +18,24 @@ body, ul, li, h1, h2, a, main{
     box-shadow: 0 5px 15px rgba(145, 92, 182);
 }
 
-nav {
-    margin-top: 1%;
+nav { 
+    display: block;
+    max-width: 1200px;
+    margin: 0 8%;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 
-nav ul{
-    max-width: 1200px;
-    margin: 0 auto;
-    white-space: nowrap;
-}
+
 
 nav li{
     display: inline-block;
-    margin-right: 2%;
+    padding-right: 2%;
 }
 
 nav img{
-    margin-right: 40%;
+    padding-top: 1%;
+    margin-right: 34%;
 }
 
 nav a{
@@ -43,6 +44,7 @@ nav a{
 }
 
 main{
+    padding-left: 6%;
     display: block;
     max-width: 1200px;
     margin: 0 auto;
@@ -60,9 +62,9 @@ main{
 }
 
 main article{
-    width: 50%;
+    width: 40%;
     float: left;
-    margin-right: 5%;
+    margin-right: 7%;
     margin-top: 8%;
 }
 
@@ -119,16 +121,17 @@ main a{
 }
 
 .Services .Cards{
+    padding-left: 5%;
     display: block;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
     white-space: nowrap;
     box-sizing: border-box;
 }
 
 .Services .Cards li{
     display: inline-block;
-    max-width: 20%;
+    max-width: 19%;
     text-align: center;
     margin: 4% 2%;
     transition: all 0.2s ease-in-out;
@@ -172,6 +175,7 @@ main a{
     margin: 4% auto;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-left: 5%;
 }
 
 .Hire article{
@@ -181,7 +185,7 @@ main a{
 }
 
 .Hire .Second-image{
-    margin-left: 8%;
+    margin-left: 6%;
     margin-right: 5%;
     width: 40%;
     float: left;
@@ -211,6 +215,7 @@ main a{
 }
 
 .Profile{
+    padding-left: 7%;
     display: inline-block;
     max-width: 1200px;
     margin: 7% 7%;
@@ -223,7 +228,7 @@ main a{
     margin-top: 10%;
     width: 40%;
     float: left;
-    margin-right: 10%;
+    margin-right: 18%;
 }
 
 .Profile p{
@@ -359,6 +364,11 @@ main a{
     color: #a2a3a3;
 }
 
+.Membership{
+    margin: 0 10%;
+    margin-right: 8%;
+}
+
 .Membership article{
     display: block;
     max-width: 1200px;
@@ -427,29 +437,30 @@ main a{
 .Join{
     display: block;
     max-width: 1200px;
-    margin: 7% auto;
+    margin: 4% auto;
     white-space: nowrap;
     box-sizing: border-box;
     margin-left: 10%;
+    padding-right: 7%;
 }
 
-.Join .Join-form{
-    display: block;
-    width: 50%;
+.Join article{
+    width: 40%;
     float: left;
-    white-space: nowrap;
-
-}
-
-.Join p{
-    white-space: normal;
-    line-height: 24px;
-    color: #a2a3a3;
+    margin-left: 20%;
 }
 
 .Join .Join-img{
     width: 40%;
     float: left;
+    
+}
+
+
+.Join p{
+    white-space: pre-line;
+    line-height: 24px;
+    color: #a2a3a3;
 }
 
 .Join .Join-Form h1{
@@ -460,9 +471,7 @@ main a{
     display: inline-block;
     max-width: 100%;
     box-sizing: border-box;
-
 }
-
 
 .Join .custom-form #Firstname{
     display: inline-block;
@@ -491,11 +500,11 @@ main a{
 }
 
 .Join .custom-form #Email{
-    display: inline-block;
+    /* display: inline-block; */
     width: 84%;
     height: 25px;
-    float: left;
     margin-bottom: 2.5%;
+    float: left;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
@@ -522,6 +531,7 @@ main a{
     color: white;
     font-weight: bold;
     font-size: 1em;
+    margin-bottom: 10%;
 }
 
 .Join .custom-form #Submit:hover
@@ -534,9 +544,10 @@ main a{
 
 footer{
     display: inline-block;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 7%;
     margin-right: 0%;
+    padding-right: 2.5%;
     white-space: nowrap;
     box-sizing: border-box;
     margin-right: 5%;
@@ -548,9 +559,6 @@ footer{
     padding-right: 10%;
     padding-left: 5%;
     display: inline-block;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-right: 0%;
     white-space: nowrap;
     box-sizing: border-box;
     background-color: #353535;
@@ -585,5 +593,5 @@ footer{
 
 .Copyright .Design-span1{
     padding-left: 5%;
-    margin-right: 45%;
+    margin-right: 35%;
 }
