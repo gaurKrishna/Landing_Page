@@ -24,6 +24,7 @@ nav {
     margin: 0 8%;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-left: 3%;
 }
 
 
@@ -303,6 +304,7 @@ main a{
     white-space: nowrap;
     margin-bottom: 5%;
     box-sizing: border-box;
+    margin-right: 3%; 
 }
 
 .features-available div{
@@ -331,6 +333,7 @@ main a{
 .features-available article{
     margin-top: 5.5%;
     width: 40%;
+    margin-left: 5%;
     float: left;
 }
 
@@ -366,7 +369,7 @@ main a{
 
 .Membership{
     margin: 0 10%;
-    margin-right: 8%;
+    margin-right: 5%; 
 }
 
 .Membership article{
@@ -547,7 +550,6 @@ footer{
     max-width: 100%;
     margin: 0 7%;
     margin-right: 0%;
-    padding-right: 2.5%;
     white-space: nowrap;
     box-sizing: border-box;
     margin-right: 5%;
