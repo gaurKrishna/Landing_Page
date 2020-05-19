@@ -51,6 +51,7 @@ main{
     margin: 0 auto;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-left: 3%;
 }
 
 .We_Creative{
@@ -88,6 +89,7 @@ main a{
     white-space: nowrap;
     display: block;
     text-align: center;
+    margin-left: 3%;
 }
 
 .Scroll-bar a{
@@ -114,6 +116,7 @@ main a{
     margin: 0 auto;
     white-space: nowrap;
     box-sizing: border-box;
+    margin-left: 3%;
 }
 
 .Services article{
@@ -176,7 +179,7 @@ main a{
     margin: 4% auto;
     white-space: nowrap;
     box-sizing: border-box;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .Hire article{
@@ -216,13 +219,14 @@ main a{
 }
 
 .Profile{
-    padding-left: 7%;
     display: inline-block;
     max-width: 1200px;
     margin: 7% 7%;
     white-space: nowrap;
     box-sizing: border-box;
     margin-bottom: 6%;
+    padding-left: 7%;
+    margin-left: 3%;
 }
 
 .Profile article{
@@ -278,6 +282,7 @@ main a{
     white-space: nowrap;
     margin-bottom: 5%;
     box-sizing: border-box;
+    margin-left: 3%;
 }
 
 .Featured-in h2{
@@ -300,7 +305,7 @@ main a{
 .features-available{
     display: inline-block;
     max-width: 1200px;
-    margin: 0 7%;
+    margin: 0 9%;
     white-space: nowrap;
     margin-bottom: 5%;
     box-sizing: border-box;
@@ -368,7 +373,7 @@ main a{
 }
 
 .Membership{
-    margin: 0 10%;
+    margin: 0 12%;
     margin-right: 5%; 
 }
 
@@ -443,7 +448,7 @@ main a{
     margin: 4% auto;
     white-space: nowrap;
     box-sizing: border-box;
-    margin-left: 10%;
+    margin-left: 12%;
     padding-right: 7%;
 }
 
@@ -548,7 +553,7 @@ main a{
 footer{
     display: inline-block;
     max-width: 100%;
-    margin: 0 7%;
+    margin: 0 9%;
     margin-right: 0%;
     white-space: nowrap;
     box-sizing: border-box;
